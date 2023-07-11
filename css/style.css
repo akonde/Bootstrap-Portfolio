@@ -1,0 +1,87 @@
+:root {
+  --main-color: rgb(243, 243, 248);
+  --hover-color: rgb(153, 153, 173);
+  --header-color: rgb(48, 48, 51);
+  --logo-color: rgb(74, 85, 85);
+  --text-color: rgb(161, 188, 228);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(236, 245, 245);
+  width: 100%;
+}
+.navbar {
+  background-color: blue;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-brand img {
+  padding-right: 15px;
+  width: 100px;
+}
+.container-banner {
+  width: 100%;
+}
+.banner {
+  background-image: url("../images/bg-image.jpg");
+  height: 150px;
+  background-size: cover;
+  background-position: 100%;
+}
+.banner h2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: var(--main-color);
+  padding: 50px;
+}
+.work-container, .about container {
+  /* border: 5px solid black; */
+  margin-bottom: 30px;
+}
+.about-section img {
+  margin: 20px;
+  align-items: center;
+
+}
+.about-section h3 { 
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+/* .profile-image {
+  border-right: 3px solid rgb(151, 23, 23);
+
+} */
+.about-heading {
+  border-right: 3px solid var(--header-color);
+  margin: 20px 0;
+}
+.work-image {
+  background-image: url("../images/pexels-steve-johnson-1269968.jpg");
+  margin-top: 20px;
+  border: 3px solid red;
+  height: 300px;
+  background-size: cover;
+  background-position: 100%;}
+
+  .work-heading h3 {
+    margin: 20px 0;
+  }
+.footer {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #df68bb;
+  margin-top: 50px;
+}
+.footer p {
+  align-items: center ;
+  justify-content: center;
+}
